@@ -1,2 +1,2 @@
 # STMSC
-Spatial Domain Identification in 3D Tissue Reconstructions through Multi-Slice Joint Analysis and Pre-Correction Mechanisms
+STMSC: A Novel Multi-Slice Framework for Precision 3D Spatial Domain Reconstruction and Disease Pathology Analysis
