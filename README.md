@@ -19,3 +19,7 @@ Human HER2 breast cancer:lam = 9,bl = 0.2,bll = 0.1
 # Hardware specifications
 1. Intel(R) Xeon(R) w5-3435X, NVIDIA RTX A6000
 2. 13th Gen Intel(R) Core(TM) i9-13900KF, NVIDIA GeForce RTX 4090
+# Run
+- **Model/** → Contains the models for reproduction.  
+- **STMSC_main/** → Includes the training code for the STMSC model.  
+- **LIBD.py, human_breast.py, mouse_brain.py** → Execution scripts for running different experiments.  
