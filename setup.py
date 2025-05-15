@@ -1,6 +1,5 @@
 from setuptools import setup, find_packages
 
-# 从 requirements.txt 读取依赖
 with open("requirements.txt", "r", encoding="utf-8") as f:
     requirements = f.read().splitlines()
 
