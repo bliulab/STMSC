@@ -4,8 +4,10 @@ STMSC: A Novel Multi-Slice Framework for Precision 3D Spatial Domain Reconstruct
 # Installation
 The STMSC package is developed based on Python and supports GPU acceleration (recommended) and CPU execution.
 ## Step 1: Clone the Repository
-`git clone https://github.com/bliulab/STMSC.git
-cd STMSC`
+```
+git clone https://github.com/bliulab/STMSC.git
+cd STMSC
+```
 ## Step 2: Create a Conda Environment
 We recommend creating a separate environment for running STMSC:
 `# Create a conda environment named env_STMSC with Python 3.8
