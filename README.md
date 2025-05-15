@@ -10,16 +10,22 @@ cd STMSC
 ```
 ## Step 2: Create a Conda Environment
 We recommend creating a separate environment for running STMSC:
-`# Create a conda environment named env_STMSC with Python 3.8
-conda create -n env_STMSC python=3.10`
-`# Activate the environment
-conda activate env_STMSC`
+```
+# Create a conda environment named env_STMSC with Python 3.8
+conda create -n env_STMSC python=3.10
+# Activate the environment
+conda activate env_STMSC
+```
 ## Step 3: Install Required Packages
 For Linux:
-`pip install -r requirements.txt`
+```
+pip install -r requirements.txt
+```
 ## Step 4: Install STMSC
-`python setup.py build
-python setup.py install`
+```
+python setup.py build
+python setup.py install
+```
 # Tutorials and reproducibility
 We provided codes for reproducing the experiments of the paper "A novel multi-slice framework for precision 3D spatial domain reconstruction and disease pathology analysis", and comprehensive tutorials for using STMSC. Please check the tutorial website for more details.
 # Parameter settings
