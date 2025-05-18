@@ -11,7 +11,7 @@ cd STMSC
 ## Step 2: Create a Conda Environment
 We recommend creating a separate environment for running STMSC:
 ```
-# Create a conda environment named env_STMSC with Python 3.8
+# Create a conda environment named env_STMSC with Python 3.10
 conda create -n env_STMSC python=3.10
 # Activate the environment
 conda activate env_STMSC
