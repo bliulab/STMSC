@@ -27,7 +27,7 @@ python setup.py build
 python setup.py install
 ```
 # Tutorials and reproducibility
-We provided codes for reproducing the experiments of the paper "A novel multi-slice framework for precision 3D spatial domain reconstruction and disease pathology analysis", and comprehensive tutorials for using STMSC. Please check the tutorial website for more details.
+We provided codes for reproducing the experiments of the paper "A novel multi-slice framework for precision 3D spatial domain reconstruction and disease pathology analysis", and comprehensive tutorials for using STMSC. Please check [the tutorial website](https://stmsc-tutorial.readthedocs.io/en/latest/) for more details.
 # Parameter settings
 Train_model:epoch=5000,lr=0.01
 LIBD-151507-151510:lam=5,bl=0.5,bll=0.1
