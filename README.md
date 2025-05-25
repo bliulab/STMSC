@@ -26,21 +26,21 @@ pip install -r requirements.txt
 python setup.py build
 python setup.py install
 ```
-# Tutorials and reproducibility
+## Tutorials and reproducibility
 We provided codes for reproducing the experiments of the paper "A novel multi-slice framework for precision 3D spatial domain reconstruction and disease pathology analysis", and comprehensive tutorials for using STMSC. Please check [the tutorial website](https://stmsc-tutorial.readthedocs.io/en/latest/) for more details.
-# Parameter Settings
+## Parameter Settings
 
 In STMSC, several hyperparameters are used to control the loss weighting across different components of the framework. Below we explain the meaning of each parameter and provide the settings used for various datasets.
 
-## Parameter Definitions
+### Parameter Definitions
 
-- **`lam`**: Weight of the loss term in the **cell-type deconvolution** module. A higher value places greater emphasis on accurately reconstructing cell type proportions.
+- **`lam`**: Weight of the loss term in the **cell-type deconvolution** module.
 - **`bl`**: Weight for incorporating deconvolution-informed features during the **spatial graph correction** step.
-- **`bll`**: Weight for enforcing **alignment across adjacent slices** during spatial graph correction. Larger values encourage stronger inter-slice consistency.
+- **`bll`**: Weight for enforcing **alignment across adjacent slices** during spatial graph correction. 
 
 > ℹ️ **Tip**: These parameters may need to be adjusted depending on tissue type, slice resolution, or biological heterogeneity.
 
-## Dataset-Specific Settings
+### Dataset-Specific Settings
 
 ```text
 # General training configuration
@@ -53,7 +53,7 @@ LIBD-151673-151676:       lam=7, bl=0.1, bll=0.1
 Human breast cancer:      lam=7, bl=0.1
 Mouse brain:              lam=3, bl=0.6
 Human HER2 breast cancer: lam=9, bl=0.2, bll=0.1
-
-# Hardware specifications
+```text
+## Hardware specifications
 1. Intel(R) Xeon(R) w5-3435X, NVIDIA RTX A6000
 2. 13th Gen Intel(R) Core(TM) i9-13900KF, NVIDIA GeForce RTX 4090
