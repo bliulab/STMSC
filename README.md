@@ -34,9 +34,9 @@ In STMSC, several hyperparameters are used to control the loss weighting across 
 
 ### Parameter Definitions
 
-- **`lam`**: Weight of the loss term in the **cell-type deconvolution** module.
-- **`bl`**: Weight for incorporating deconvolution-informed features during the **spatial graph correction** step.
-- **`bll`**: Weight for enforcing **alignment across adjacent slices** during spatial graph correction. 
+- **`lam`**: Weight of the loss term in the **deconvolution** module.
+- **`bl`**: Weight for incorporating deconvolution-informed features during the **graph correction** step.
+- **`bll`**: Weight for enforcing alignment across adjacent slices during **graph correction**. 
 
 > ℹ️ **Tip**: These parameters may need to be adjusted depending on tissue type, slice resolution, or biological heterogeneity.
 
