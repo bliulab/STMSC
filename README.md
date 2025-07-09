@@ -1,6 +1,7 @@
 # STMSC
 A novel multi-slice framework for precision 3D spatial domain reconstruction and disease pathology analysis
 ![image text](https://github.com/bliulab/STMSC/blob/main/Figures.png)
+Reference: D. Zhang, R. Qi, X. Lan, and B. Liu, "A Novel Multi-Slice Framework for Precision 3D Spatial Domain Reconstruction and Disease Pathology Analysis," Genome Research,  DOI: 10.1101/gr.280281.124, 2025.
 # Installation
 The STMSC package is developed based on Python and supports GPU acceleration (recommended) and CPU execution.
 ## Step 1: Clone the Repository
